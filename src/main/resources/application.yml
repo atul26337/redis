@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: demo
+netty:
+  default:
+    allocator:
+      max-order: 3
+redis:
+  uri: ${REDIS_URL:`redis://localhost:6379`}
+  timeout: 10s
